@@ -1,0 +1,23 @@
+#search-form {
+  width: 100%;
+}
+
+#search-form input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  height: 30px;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#search-form input::placeholder {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png");
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-indent: 25px;
+}
