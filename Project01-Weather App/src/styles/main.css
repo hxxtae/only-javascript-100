@@ -1,0 +1,34 @@
+:root {
+  --max: 320px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+#app {
+  position: relative;
+  width: var(--max);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#portal {
+  width: var(--max);
+  max-height: 500px;
+  border-radius: 14px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

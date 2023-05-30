@@ -1,0 +1,86 @@
+#weather-card {
+  width: 100%;
+  text-align: center;
+}
+
+#weather-card h1 {
+  margin: 12px 0;
+}
+
+#weather-card .image {
+  width: 180px;
+  height: 0px;
+  margin: 0 auto;
+  animation: showImage 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+#weather-card .image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#weather-card h2 {
+  margin: 12px 0;
+}
+
+#weather-card .other-datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+#weather-card .other-datas > .humidity,
+#weather-card .other-datas > .windSpeed {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#weather-card .other-datas > .humidity .wrapper,
+#weather-card .other-datas > .windSpeed .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#weather-card .other-datas > .humidity .wrapper > strong:first-child,
+#weather-card .other-datas > .windSpeed .wrapper > strong:first-child {
+  font-size: 14px;
+}
+
+#weather-card .other-datas > .humidity .wrapper > strong:last-child,
+#weather-card .other-datas > .windSpeed .wrapper > strong:last-child {
+  font-size: 12px;
+}
+
+#weather-card .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+#weather-card .controls > button {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #dddddd;
+}
+
+@keyframes showImage {
+  0% {
+    height: 0px;
+  }
+
+  100% {
+    height: 180px;
+  }
+}
