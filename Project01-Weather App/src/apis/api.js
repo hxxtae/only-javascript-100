@@ -1,6 +1,6 @@
 const COMMON_URL =
   "http://api.openweathermap.org/data/2.5/weather?units=metric&appid=";
-const API_KEY = "8b282864575b2fb1c1b0c938ad6e6bd1";
+const API_KEY = process.evn.API_KEY;
 
 const response = async (url) => {
   try {
