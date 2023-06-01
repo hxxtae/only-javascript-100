@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "WeatherApp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.1.1"
-  }
+  },
+  "devDependencies": {}
 }
