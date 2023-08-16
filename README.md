@@ -1,6 +1,6 @@
 # Only JavaScript 100
 
-Try making 100 projects with javascript!!
+Try making 100 projects with JavaScript & TypeScript!!
 
 ### Try running the code
 
@@ -11,3 +11,7 @@ Try making 100 projects with javascript!!
 Here we have list of projects:
 
 01. Weather App
+
+02. Language Search App
+
+03. Employ Table App
